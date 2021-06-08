@@ -1,6 +1,8 @@
 
 # n to m loop
-x = 2 #n
-while x <= 8 : #m = 8 in this instance
+start = input('What number should the loop starts: ')
+end = input('What number should the loop end: ')
+
+while start <= end :
     print(x)
-    x += 1
+    start += 1
